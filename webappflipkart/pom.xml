@@ -10,7 +10,7 @@
 
   <name>webappflipkart</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>http://www.webappflipkart.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,6 +25,17 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+  <groupId>org.testcontainers</groupId>
+  <artifactId>mysql</artifactId>
+  <version>1.17.4</version>
+</dependency>
+ 
+  <dependency>
+  <groupId>com.liferay</groupId>
+  <artifactId>com.liferay.map.google.maps</artifactId>
+  <version>5.0.18</version>
+</dependency>
   </dependencies>
 
   <build>
